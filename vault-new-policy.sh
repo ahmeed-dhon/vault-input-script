@@ -29,5 +29,3 @@ curl \
     --request POST \
     --data @policy-payload.json \
     <your-vault-domain-or-ip>/v1/identity/group/id/<group-id-created-from-vault-guide>
-
-
