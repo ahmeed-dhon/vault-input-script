@@ -5,8 +5,11 @@
 - You can follow this [official tutorial](https://developer.hashicorp.com/vault/tutorials/policies/policies "official tutorial") to create user with limited access through policy limitation
 
 ## Values that need to be updated
-- vault-root-token -> self explanatory
-- your-kv-v2-engine-name -> self explanatory
+- vault-root-token
+- your-kv-v2-engine-name
+- your-vault-domain-or-ip
+- entity-id-created-from-vault-guide
+- group-id-created-from-vault-guide
 
 ## How to run
 ### Make sure that you already updated all important values that need to be changed from above
