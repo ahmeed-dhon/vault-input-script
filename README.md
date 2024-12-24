@@ -1,13 +1,12 @@
-# Devops-vault
+# Vault Auto Input Script
 
 Use this bash script to batch input secret value that will be used for later deployment
+This script will create new policy to limit create limited access for security purpose
+You can follow this [official tutorial](https://developer.hashicorp.com/vault/tutorials/policies/policies "official tutorial") to create user with limited access through policy limitation
 
 ## Values that need to be updated
 - vault-root-token -> self explanatory
 - your-kv-v2-engine-name -> self explanatory
-- set-password-here -> set new password for each mongodb database, psql database or redis password
-
-# **IMPORTANT!!! DONT COMMIT ANY UPDATE TO THIS REPO!! THIS REPO IS JUST FOR EXAMPLE**
 
 ## How to run
 ### Make sure that you already updated all important values that need to be changed from above
